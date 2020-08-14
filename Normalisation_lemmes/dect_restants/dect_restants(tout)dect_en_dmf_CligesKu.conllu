@@ -1,0 +1,5 @@
+	id	forme	lemme	pos	pos+	imorph1	imorph2	imorph3	imorph4	src	ancien_lem	etiq_lem_corp
+4	5	Erec	Erec	PROPN	NOMpro	_	_	_	_	XmlId=w_CligesKu_5|LemmaSrc=DECT	Erec	__NOMpro__Erec__
+13	14	Ovide	Ovide	PROPN	NOMpro	_	_	_	_	XmlId=w_CligesKu_14|LemmaSrc=DECT	Ovide	__NOMpro__Ovide__
+33	34	Marc	Marc	PROPN	NOMpro	_	_	_	_	XmlId=w_CligesKu_34|LemmaSrc=DECT	Marc	__NOMpro__Marc__
+36	37	Ysalt	Iseut	PROPN	NOMpro	_	_	_	_	XmlId=w_CligesKu_37|LemmaSrc=DECT	Iseut	__NOMpro__Iseut__
