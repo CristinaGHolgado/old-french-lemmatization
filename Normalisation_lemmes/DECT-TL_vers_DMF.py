@@ -90,9 +90,7 @@ def transformation(dect_dmf, tl_dmf, path_corpus):
 
     corpus["lemme"] = corpus['lemme'].str.replace(r'\d+','')  # Suppresion chiffres chans la colonne lemmes pour conversion TL-DMF
 
-    corpus['etiq_lem_corp'] = corpus['pos+'].str.replace(r'ABR.*[a-z]$','OUT').str.replace(r'ADJ.*[a-z]$','APD').str.replace(r'ADVneg','APD').str.replace(r'ADV.*[a-z]$','ADV').str.replace(r'CON.*[a-z]$','CON').str.replace('DETdef','DET').str.replace('DETndf','DET').str.replace(r'DET.*[a-z]$','APD').str.replace(r'ETR.*[a-z]$','ETR').str.replace(r'INJ.*[a-z]$','INJ').str.replace(r'PONfrt','-P-O-Nfrt').str.replace(r'PON.*[a-z]$','PON').str.replace(r'-P-O-Nfrt','PONfrt').str.replace(r'PRE.*','PRE').str.replace(r'PROper','P-R-O').str.replace(r'PRO.*[a-z]$','APD').str.replace(r'P-R-O','PRO').str.replace(r'RED','OUT').str.replace(r'RES','OUT').str.replace(r'VER.*[a-z]$','VER').str.replace(r'REL.*[a-z]$','OUT').str.replace(r'^((?!ABR|ADV|APD|OUT|ADV|CON|DETdef|DETndf|DET|ETR|INJ|PONfrt|PON|PRE|PROper|PRO|NOMcom|NOMpro|RES|VER|REL)).*$','OUT') # nouvelle colonne avec normalisation etiquettes
-  
-
+    corpus['etiq_lem_corp'] = corpus['pos+'].str.replace(r'ABR.*[a-z]$','OUT').str.replace(r'ADJ.*[a-z]$','APD').str.replace(r'ADVneg','APD').str.replace(r'ADV.*[a-z]$','ADV').str.replace(r'CON.*[a-z]$','CON').str.replace('DETdef','DET').str.replace('DETndf','DET').str.replace(r'DET.*[a-z]$','APD').str.replace(r'ETR.*[a-z]$','ETR').str.replace(r'INJ.*[a-z]$','INJ').str.replace(r'PONfrt','-P-O-Nfrt').str.replace(r'PON.*[a-z]$','PON').str.replace(r'-P-O-Nfrt','PONfrt').str.replace(r'PRE.*','PRE').str.replace(r'PROper','P-R-O').str.replace(r'PRO.*[a-z]$','APD').str.replace(r'P-R-O','PRO').str.replace(r'RED','OUT').str.replace(r'RES','OUT').str.replace(r'VER.*[a-z]$','VER').str.replace(r'REL.*[a-z]$','OUT').str.replace(r'^((?!ABR|ADV|APD|OUT|ADV|CON|DETdef|DETndf|DET|ETR|INJ|PONfrt|PON|PRE|PROper|PRO|NOMcom|NOMpro|RES|VER|REL)).*$','OUT') # nouvelle colonne avec normalisation etiquettes  
     corpus['etiq_lem_corp'] = '__'+corpus[['etiq_lem_corp','lemme']].agg('__'.join, axis=1)+'__' # concatenation des lemmes et des etiquettes normalises (etiquette+lemme)
     corpus['etiq_lem_corp'] = corpus['etiq_lem_corp'].replace(r'^"','')
     corpus['etiq_lem_corp'] = corpus['etiq_lem_corp'].replace(tl_df.set_index('etiq_lem')['DMF']+'<') # Si etiquette et lemme corpus dans etiquette et lemme tableau TL-DMF, remplacer par lemme DMF du tableau.
@@ -135,13 +133,11 @@ def transformation(dect_dmf, tl_dmf, path_corpus):
 
       # modifier la source DECT a DMF/TL dans la colonne src
       cols = corpus2.columns[corpus2.columns.str.contains('src')]
-      corpus2[cols] = corpus2[cols].mask(corpus2[cols].apply(lambda x: corpus2.lemme.str.contains(">")), corpus2['src'].str[:-4] + "DMF", axis=0)
-      corpus2[cols] = corpus2[cols].mask(corpus2[cols].apply(lambda x: corpus2.lemme.str.contains("<")), corpus2['src'].str[:-4] + "DMF" , axis=0)
+      corpus2[cols] = corpus2[cols].mask(corpus2[cols].apply(lambda x: corpus2.lemme.str.contains(">|<")), corpus2['src'].str[:-4] + "DMF", axis=0)
       corpus2['src'] = corpus2['src'] + "|LemmaDECT=" + corpus2.ancien_lem
 
 
       corpus2['src'] = corpus2.src.str.replace(r'\|.*LemmaSrc=DECT\|LemmaDECT=.*','|LemmaSrc=DECT')
-      ## supprimer caracteres < > & deux dernieres colonnes
       corpus2['lemme'] = corpus2['lemme'].str.replace('>|<', '')
       del corpus2['ancien_lem']
       del corpus2['etiq_lem_corp']
