@@ -6,6 +6,19 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
+
+def outpuf_folder():
+  """
+  Make folder for normalized files
+
+  """
+  try:
+    os.makedirs('corpus_normalise')
+  except FileExistsError:
+    pass
+outpuf_folder()
+
+
 def transformation(dect_dmf, tl_dmf, path_corpus):
   """Conversion of DECT|TL lemmas into DMF lemmas
   
@@ -113,7 +126,6 @@ def transformation(dect_dmf, tl_dmf, path_corpus):
                        quoting=csv.QUOTE_NONE,
                        dtype='object')
 
-      print(corpus2)
       corpus2.loc[corpus2['etiq_lem_corp'].str.contains('<'), 'lemme'] = corpus2['etiq_lem_corp']
       print("==========================")
       print(len(corpus2[corpus2.lemme.str.contains('<')]), 'lemmes TL(DECT) remplaces en DMF.')
@@ -150,5 +162,19 @@ def transformation(dect_dmf, tl_dmf, path_corpus):
 
 
 
+corpus = []
+dect_dmf = []
+decttl_dmf = []
 
-transformation('correspondances_lemmes\\dect_en_dmf.csv','correspondances_lemmes\\convDECT2DMF.tsv', 'corpus_a_normaliser\\BFMGOLDLEM')
+with open('fpath_normalisation.txt','r',encoding='utf8') as f:
+  file = f.read()
+  for line in file.split('\n'):
+    if 'corpus_src' in line:
+      corpus.append(''.join(line.split('=')[-1]).replace(r' ',''))
+    if 'dect_dmf' in line:
+      dect_dmf.append(''.join(line.split('=')[-1]).replace(r' ',''))
+    if 'decttl_dmf' in line:
+      decttl_dmf.append(''.join(line.split('=')[-1]).replace(r' ',''))
+
+outpuf_folder()
+transformation(''.join(dect_dmf),''.join(decttl_dmf),''.join(corpus))
