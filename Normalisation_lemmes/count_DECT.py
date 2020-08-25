@@ -2,6 +2,19 @@ import pandas as pd
 import csv
 import glob
 import os
+import sys
+
+
+def outpuf_folder():
+  """
+  Make folder for normalized files
+
+  """
+  try:
+    os.makedirs('dect_restants')
+  except FileExistsError:
+    pass
+outpuf_folder()
 
 
 def count(corpus_path):
@@ -60,5 +73,9 @@ def count(corpus_path):
 
 		fname = "dect_restants\\"+name.replace('tldmf_output_dect_en_dmf','dect_restants(sans_ponct)')
 		ponctuation.to_csv(fname, encoding='utf8', sep='\t', header=False)
+		print()
 
+
+sys.stdout=open("calcul_restants.txt","w")
 count('corpus_normalise')
+sys.stdout.close()
