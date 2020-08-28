@@ -48,7 +48,6 @@ def comb_lemme():
 		contractions = r'^de\.le$|^de\.les$|^a\.les$|^a\.le$|^le\.à$|^à\.les$|^à\.le$|^de\.lequel$|^de\.lequel$|^je\.le$|^ne\.le$|^à\.lequel$|^à\.ledit$|^que\.le$|^en\.le$'
 
 		print(testname,'\n============================================================')
-		from iteration_utilities import duplicates
 
 	## choix des lemmes
 		lemmes = df[['lemme_lg','udpipe_lemme','tt_lemme','lemme_nlp']]
@@ -100,5 +99,5 @@ def evaluation():
 		print(prec_etlem)
 		print()
 comb_lemme()
-# evaluation()
+evaluation()
 
