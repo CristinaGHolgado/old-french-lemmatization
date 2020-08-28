@@ -1,0 +1,99 @@
+!	PONfrt !
+(	PONpga (
+)	PONpdr )
+,	PONfbl ,	PONfrt ,
+-	PONfbl -	PONfrt -
+-il	PROper il
+.	OUT _	PONfrt .
+...	PONfrt .
+.C.	DETcar cent	PROcar cent
+.CC.	ADJcar deux-cents
+.II.	DETcar deux
+.III.	DETcar trois
+.IIII.	DETcar quatre	PROcar quatre
+.Ixii.	DETcar soixante-deux
+.Ixij.	ADJcar soixante-deux
+.L.	DETcar cinquante	PROcar cinquante
+.M.	ADJcar mille
+.V.	PROcar cinq
+.VI.	DETcar six	PROcar six
+.VII.	DETcar sept	PROcar sept
+.VIII.	ADJcar huit
+.Viii.	DETcar huit
+.X.	DETcar dix	PROcar dix
+.XII.	DETcar douze	PROcar douze
+.XL.	DETcar quarante	PROcar quarante
+.XLIIII.	ADJcar quarante-quatre
+.XLV.	ADJcar quarante-cinq
+.XLVII	ADJcar quarante-sept
+.XLVII.	ADJcar quarante-sept
+.XV.	DETcar quinze	PROcar quinze
+.XVII.	DETcar dix-sept
+.XX.	DETcar vingt	PROcar vingt
+.XXIIII.	PROcar vingt-quatre
+.XXX.	DETcar trente	PROcar trente
+.c.	DETcar cent
+.i.	DETcar un	DETndf un
+.iiii.	ADJcar quatre
+.iiij.	ADJcar quatre	DETcar quatre
+.iij.	ADJcar trois	DETcar trois
+.ij.	ADJcar deux	DETcar deux	PROcar deux
+.iv.	DETcar quatre
+.j.	DETcar un	DETndf un	PROcar un
+.lij.	DETcar cinquante-deux
+.lx.	DETcar soixante
+.v.	DETcar cinq	PROcar cinq
+.vi.	ADJcar six	PROcar six
+.vii.	DETcar sept	PROcar sept
+.viii.	DETcar huit
+.viij.	ADJcar huit	DETcar huit	PROcar huit
+.vij.	DETcar sept
+.vj.	DETcar six
+.xii. d.	DETcar douze
+.xiii.	ADJcar treize
+.xiiij.	DETcar quatorze
+.xiij.	DETcar treize
+.xij.	ADJcar douze	DETcar douze	PROcar douze
+.xv.	ADJcar quinze	DETcar quinze
+.xviij.	ADJcar dix-huit	DETcar dix-huit
+.xvij.	DETcar dix-sept
+.xx.	DETcar vingt	PROcar vingt
+.xxiiij.	DETcar vingt-quatre
+.xxij.	DETcar vingt-deux
+.xxvi.	PROcar vingt-six
+.xxx.	DETcar trente	PROcar trente
+.xxxv.	PROcar trente-cinq
+:	PONfbl :
+;	PONfbl ;
+?	PONfrt ?
+A	INJ ah	PRE à
+ABBACUC	ETR Habacuc
+ADENET	NOMpro Adenet
+AL.	NOMpro Aleaume
+AN	NOMcom an
+ANNE	ETR Anna
+AOI	INJ aoi
+APOSTOLORUM	ETR apostolus
+APRèS	ADVgen après	PRE après
+AUREZ	VERcjg avoir
+Aaste	ADVgen.PROper es.tu
+Abacuc	NOMpro Habacuc
+Abisme	NOMpro Abisme
+Abraham	NOMpro Abraham
+Acelin	NOMpro Acelin
+Acharies	NOMpro Arcadius
+Achaye	NOMpro Achaïe
+Achaÿe	NOMpro Achaïe
+Achemannestrate	ETR Achemannestrate
+Actum	ETR ago
+Ad	PRE à	VERcjg avoir
+Adam	NOMpro Adam
+Adelstan	NOMpro Adelstan
+Ademplir	VERinf aemplir
+Adenet	NOMpro Adenet
+Ades	NOMpro Adam
+Adobez	VERppe adouber
+Adonc	ADVgen adonc
+Adont	ADVgen adonc
+Adrians	NOMpro Hadrien
+Adrinople	NOMpro Andrinople
