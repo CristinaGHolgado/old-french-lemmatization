@@ -68,7 +68,7 @@ def count(corpus_path):
 		fname_no_duplicates = "dect_restants\\no_duplicates"+name
 		df_simplifie.to_csv(fname_no_duplicates, encoding='utf8', sep='\t', header=False)
 
-		total_no_rempl = len(dect) - len(dect[dect.cattex.str.contains('PON')]) # ni tienent DMF ni estos despues son PONC
+		total_no_rempl = len(dect) - len(dect[dect.cattex.str.contains('PON')]) #compter sans ponctuation
 		cats = ponctuation[~ponctuation['cattex'].str.contains('PON')].groupby(['cattex']).size().sort_values(ascending=False)
 
 		fname = "dect_restants\\"+name.replace('tldmf_output_dect_en_dmf','dect_restants(sans_ponct)')
