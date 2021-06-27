@@ -104,6 +104,3 @@ Since the corpus files are already tokenized, we skip the tokenization step. For
 - **UDPipe** : `train_udpipe.R` launchs training and annotation. A more recent script is avaliable with an improved lemmatization : https://colab.research.google.com/drive/1RfLAWYHelhp8iVuLeLe-tfGKfCmFnEIJ?usp=sharing  
 - **Pie** : run `!pie train default_settings.json` after setting the parameters (at least input path and model name) in the json file or use <a href="https://colab.research.google.com/drive/1lTXwt55hTxRhyP-HRXm-MUzSCcSt_rbb?usp=sharing">train Pie notebook</a>. Function `setParam()` only works with Pie (v0.3.6). Since tokenization is skipped, function `noTokenizing()` is essential.
 
-## 5. Evaluation
-
-## 6. Combination of lemmatizers.
