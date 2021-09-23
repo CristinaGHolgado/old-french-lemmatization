@@ -101,6 +101,6 @@ Since the corpus files are already tokenized, we skip the tokenization step. For
 
 - **TreeTagger** : `train_annotate_treetagger.py` launchs training (*par* files are created forch each test) and annotation of each test file containing the forms.
 - **LGeRM** : `annotate_lgerm.py` launchs annotation and converstion of output files to utf-8. `lgerm.bash` is required and avaliable by contacting the author (gilles.souvay@atilf.fr).
-- **UDPipe** : `train_udpipe.R` launchs training and annotation. A more recent script is avaliable with an improved lemmatization : https://colab.research.google.com/drive/1RfLAWYHelhp8iVuLeLe-tfGKfCmFnEIJ?usp=sharing  
+- **UDPipe** : `train_udpipe.R` launchs training and annotation. A more recent script is avaliable with an improved lemmatization : https://github.com/CristinaGHolgado/old-french-lemmatization/blob/master/train_tag_udpipe_old_french.ipynb 
 - **Pie** : run `!pie train default_settings.json` after setting the parameters (at least input path and model name) in the json file or use <a href="https://colab.research.google.com/drive/1lTXwt55hTxRhyP-HRXm-MUzSCcSt_rbb?usp=sharing">train Pie notebook</a>. Function `setParam()` only works with Pie (v0.3.6). Since tokenization is skipped, function `noTokenizing()` is essential.
 
