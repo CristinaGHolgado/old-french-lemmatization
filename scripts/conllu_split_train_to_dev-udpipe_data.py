@@ -46,7 +46,7 @@ def split(file, percentage_nb):
 	filename = list(filter(None, re.split(r"\.conllu|\\", file)))[-1]
 
 	# split corpus file from firt line to choosen index-1 as train set
-	subprocess.check_output(['bash','-c', f"head -n {split_index[0]-1} {file} > {filename + '.conllu'}"])
+	subprocess.check_output(['bash','-c', f"head -n {split_index[0]-1} {file} > {filename + '_train.conllu'}"])
 	#  split corpus file from choosen index to end dev set
 	subprocess.check_output(['bash','-c', f"tail -n +{split_index[0]} {file} > {filename + '_dev.conllu'}"])
 
