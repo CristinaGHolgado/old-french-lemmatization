@@ -1,0 +1,6 @@
+# Path to folder containing input corpus
+corpus_src = corpus_a_normaliser\\BFMGOLDLEM
+
+# Path to the lemmas equivalences tab file
+dect_dmf = correspondances_lemmes\\dect_en_dmf.csv
+decttl_dmf = correspondances_lemmes\\convDECT2DMF.tsv

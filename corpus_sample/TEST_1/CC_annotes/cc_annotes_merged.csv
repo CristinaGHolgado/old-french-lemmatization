@@ -1,0 +1,99 @@
+Puis	ADVgen	PUIS	1	0	Puis	puis	Puis	ADVgen	Puis	ADVgen	ADV	puis	Puis	ADVgen	puis	Puis	ADVgen	puis	Puis	puis	ADV	ADVgen	
+que	CONsub	QUE	1	0	que	que	que	PROrel	que	CONsub	SCONJ	que	que	CONsub	que	que	CONsub	que	que	que	ADV	ADVint	PronType=Int
+ma	DETpos	MON1	1	0	ma	mon	ma	DETpos	ma	DETpos	DET	mon	ma	DETpos	mon	ma	DETpos	mon	ma	mon	DET	DETpos	Poss=Yes
+dame	NOMcom	DAME1	1	0	dame	dame	dame	NOMcom	dame	NOMcom	NOUN	dame	dame	NOMcom	dame	dame	NOMcom	dame	dame	dame	NOUN	NOMcom	
+de	PRE	DE	1	0	de	de	de	PRE	de	PRE	ADP	de	de	PRE	de	de	PRE	de	de	de	ADP	PRE	
+Chanpaigne	NOMpro	µCHANPAIGNE	1	0	Chanpaigne	champagne	Chanpaigne	NOMpro	Chanpaigne	NOMpro	PROPN	Chanpaingne	Chanpaigne	NOMpro	<unknown>	Chanpaigne	NOMpro	Chanpaigne	Chanpaigne	Chanpagne	PROPN	NOMpro	
+Vialt	VERcjg	VALOIR	2	0	Vialt	vilat	Vialt	ADJqua	Vialt	VERcjg	VERB	vouloir	Vialt	VERcjg	<unknown>	Vialt	VERcjg	Vialt	Vialt	hViaut	ADJ	ADJqua	
+que	CONsub	QUE	1	0	que	que	que	PROrel	que	CONsub	SCONJ	que	que	CONsub	que	que	CONsub	que	que	que	ADV	ADVint	PronType=Int
+romans	NOMcom	ROMAN	1	0	romans	roman	romans	NOMcom	romans	NOMcom	NOUN	roman	romans	NOMcom	<unknown>	romans	NOMcom	romans	romans	romant	NOUN	NOMcom	
+a	PRE	À	1	0	a	à	a	PRE	a	PRE	ADP	à	a	PRE	à	a	PRE	à	a	à	ADP	PRE	
+feire	VERinf	FAIRE	1	0	feire	faire	feire	NOMcom	feire	VERinf	VERB	faire	feire	VERinf	<unknown>	feire	VERinf	feire	feire	feire	VERB	VERinf	VerbForm=Inf
+anpraigne	VERcjg	EMPRENDRE1	1	0	anpraigne	angarge	anpraigne	NOMcom	anpraigne	VERcjg	VERB	emprendre	anpraigne	NOMcom	<unknown>	anpraigne	NOMcom	anpraigne	anpraigne	anpraigne	NOUN	NOMcom	
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+Je	PROper	JE	1	0	Je	je	Je	PROper	Je	PROper	PRON	je	Je	PROper	je	Je	PROper	je	Je	je	PRON	PROper	PronType=Pers
+l'	PROper	LE	1	0	l'	le	l'	DETdef	l'	PROper	PRON	il	l'	PROper	le	l'	PROper	le	l'	le	DET	DETdef	PronType=Art|Definite=Def
+anprendrai	VERcjg	EMPRENDRE1	1	0	anprendrai	enrendre	anprendrai	VERcjg	anprendrai	VERcjg	VERB	emprendre	anprendrai	VERcjg	<unknown>	anprendrai	VERcjg	anprendrai	anprendrai	anprenir	VERB	VERcjg	VerbForm=Fin
+mout	ADVgen	MOULT	1	0	mout	moult	mout	ADVgen	mout	ADVgen	ADV	moult	mout	ADVgen	moult	mout	ADVgen	moult	mout	moult	ADV	ADVgen	
+volentiers	ADVgen	VOLONTIERS	1	0	volentiers	volontiers	volentiers	NOMcom	volentiers	ADVgen	ADV	volontiers	volentiers	ADVgen	volontiers	volentiers	ADVgen	volontiers	volentiers	volontiers	ADV	ADVgen	
+Come	CONsub	COMME	1	0	Come	comme	Come	CONsub	Come	CONsub	SCONJ	comme	Come	CONsub	comme	Come	CONsub	comme	Come	come	PROPN	NOMpro	
+cil	PROdem	CIL	1	0	cil	cil	cil	PROdem	cil	PROdem	PRON	cil	cil	PROdem	cil	cil	PROdem	cil	cil	cil	PRON	PROdem	PronType=Dem
+qui	PROrel	QUI1	1	0	qui	qui	qui	PROrel	qui	PROrel	PRON	qui	qui	PROrel	qui	qui	PROrel	qui	qui	qui	PRON	PROrel	PronType=Rel
+est	VERcjg	ÊTRE1	1	0	est	être	est	VERcjg	est	VERcjg	VERB	être	est	VERcjg	être	est	VERcjg	être	est	être	VERB	VERcjg	VerbForm=Fin
+suens	ADJpos	SIEN	1	0	suens	sien	suens	VERcjg	suens	ADJpos	ADJ	son	suens	PROpos	sien	suens	PROpos	sien	suens	sien	PRON	PROpos	Poss=Yes
+antiers	ADJqua	ENTIER	1	0	antiers	anterie	antiers	NOMcom	antiers	ADJqua	ADJ	entier	antiers	NOMcom	<unknown>	antiers	NOMcom	antiers	antiers	antier	NOUN	NOMcom	
+De	PRE	DE	1	0	De	de	De	PRE	De	PRE	ADP	de	De	PRE	de	De	PRE	de	De	de	ADP	PRE	
+quanqu'	PROrel	QUANQUE	2	0	quanqu'	quanque	quanqu'	PROrel	quanqu'	PROrel	PRON	quanque	quanqu'	PROrel	quanque	quanqu'	PROrel	quanque	quanqu'	quanno_lem	X	OUT	
+il	PROper	IL	1	0	il	il	il	PROper	il	PROper	PRON	il	il	PROper	il	il	PROper	il	il	il	PRON	PROper	PronType=Pers
+puet	VERcjg	POUVOIR2	1	0	puet	pouvoir	puet	VERcjg	puet	VERcjg	VERB	pouvoir	puet	VERcjg	pouvoir	puet	VERcjg	pouvoir	puet	pouvoir	VERB	VERcjg	VerbForm=Fin
+el	PRE.DETdef	EN1|LE	1	0	el	en.le	el	PRE.DETdef	el	PRE.DETdef	ADP.DET	en.le	el	PRE.DETdef	en.le	el	PRE.DETdef	en.le	el	en.le	ADP.DET	PRE.DETdef	_.PronType=Art|Definite=Def
+monde	NOMcom	MONDE1	1	0	monde	monde	monde	NOMcom	monde	NOMcom	NOUN	monde	monde	NOMcom	monde	monde	NOMcom	monde	monde	mond	ADJ	ADJqua	
+feire	VERinf	FAIRE	1	0	feire	faire	feire	NOMcom	feire	VERinf	VERB	faire	feire	VERinf	<unknown>	feire	VERinf	feire	feire	feire	VERB	VERinf	VerbForm=Inf
+Sanz	PRE	SANS	1	0	Sanz	sans	Sanz	ADJqua	Sanz	PRE	ADP	sans	Sanz	PRE	sans	Sanz	PRE	sans	Sanz	sant	ADJ	ADJqua	
+rien	PROind	RIEN	1	0	rien	rien	rien	PROind	rien	PROind	PRON	rien	rien	PROind	rien	rien	PROind	rien	rien	rien	PRON	PROind	PronType=Ind
+de	PRE	DE	1	0	de	de	de	PRE	de	PRE	ADP	de	de	PRE	de	de	PRE	de	de	de	ADP	PRE	
+losange	NOMcom	LOSANGE|LOSENGE	1	1	losange	lose	losange	NOMcom	losange	NOMcom	NOUN	losenge	losange	NOMcom	<unknown>	losange	NOMcom	losange	losange	losang	ADJ	ADJqua	
+avant	ADVgen	AVANT	1	0	avant	avant	avant	ADVgen	avant	ADVgen	ADV	avant	avant	ADVgen	avant	avant	ADVgen	avant	avant	avant	ADV	ADVgen	
+treire	VERinf	TRAIRE	1	0	treire	traire	treire	NOMcom	treire	VERinf	VERB	traire	treire	VERppe	<unknown>	treire	VERppe	treire	treire	treire	VERB	VERinf	VerbForm=Inf
+.	PONfrt	.	1	0	.	.	.	PONfrt	.	PONfrt	PUNCT	.	.	PONfrt	.	.	PONfrt	.	.	.	PUNCT	PONfrt	
+Mes	CONcoo	MAIS1	1	0	Mes	mais	Mes	CONcoo	Mes	CONcoo	CCONJ	mais	Mes	CONcoo	mais	Mes	CONcoo	mais	Mes	mais	CCONJ	CONcoo	
+tex	PROind	TEL	1	0	tex	tel	tex	DETind	tex	PROind	PRON	tel	tex	DETind	tel	tex	DETind	tel	tex	tel	ADJ	ADJind	PronType=Ind
+s'	PROper	SE1	1	0	s'	se	s'	PROper	s'	PROper	PRON	soi	s'	DETpos	son	s'	DETpos	son	s'	si	SCONJ	CONsub	
+an	PROadv	EN2	1	0	an	an	an	NOMcom	an	PROadv	ADV	en	an	NOMcom	an	an	NOMcom	an	an	en	ADP	PRE	
+poïst	VERcjg	POUVOIR2	1	0	poïst	pouvoir	poïst	VERcjg	poïst	VERcjg	VERB	pouvoir	poïst	VERcjg	pouvoir	poïst	VERcjg	pouvoir	poïst	pondre	VERB	VERcjg	VerbForm=Fin
+antremetre	VERinf	ENTREMETTRE	1	0	antremetre	antremettre	antremetre	NOMcom	antremetre	VERinf	VERB	entremettre	antremetre	VERinf	<unknown>	antremetre	VERinf	antremetre	antremetre	antremetre	ADP	PRE	
+Qui	PROrel	QUI1	1	0	Qui	qui	Qui	PROrel	Qui	PROrel	PRON	qui	Qui	PROrel	qui	Qui	PROrel	qui	Qui	qui	PRON	PROrel	PronType=Rel
+li	PROper	LE	1	0	li	le	li	DETdef	li	PROper	PRON	il	li	PROper	li	li	PROper	li	li	le	DET	DETdef	PronType=Art|Definite=Def
+volsist	VERcjg	VOULOIR	1	0	volsist	vouloir	volsist	VERcjg	volsist	VERcjg	VERB	vouloir	volsist	VERcjg	vouloir	volsist	VERcjg	vouloir	volsist	volndre	VERB	VERcjg	VerbForm=Fin
+losenge	NOMcom	LOSANGE|LOSENGE	1	1	losenge	loisne	losenge	NOMcom	losenge	NOMcom	NOUN	losenge	losenge	NOMcom	<unknown>	losenge	NOMcom	losenge	losenge	losenge	NOUN	NOMcom	
+metre	VERinf	METTRE	1	0	metre	mettre	metre	NOMcom	metre	VERinf	VERB	mettre	metre	VERinf	mettre	metre	VERinf	mettre	metre	mettre	VERB	VERinf	VerbForm=Inf
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+Si	ADVgen	SI4	1	0	Si	si	Si	ADVgen	Si	ADVgen	ADV	si	Si	ADVgen	si	Si	ADVgen	si	Si	si	ADV	ADVgen	
+deïst	VERcjg	DIRE1	1	0	deïst	denir	deïst	VERcjg	deïst	VERcjg	VERB	dire	deïst	VERcjg	<unknown>	deïst	VERcjg	deïst	deïst	dendre	VERB	VERcjg	VerbForm=Fin
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+et	CONcoo	ET	1	0	et	et	et	CONcoo	et	CONcoo	CCONJ	et	et	CONcoo	et	et	CONcoo	et	et	et	CCONJ	CONcoo	
+jel	PROper.PROper	JE|LE	1	0	jel	je.le	jel	PROper	jel	PROper.PROper	PRON.PRON	je.il	jel	PROper.PROper	je.le	jel	PROper.PROper	je.le	jel	je.le	PRON.PRON	PROper.PROper	PronType=Pers.PronType=Pers
+tesmoignasse	VERcjg	TÉMOIGNER	1	0	tesmoignasse	témaigne	tesmoignasse	NOMcom	tesmoignasse	VERcjg	VERB	témoigner	tesmoignasse	VERcjg	<unknown>	tesmoignasse	VERcjg	tesmoignasse	tesmoignasse	tesmoignas	ADJ	ADJqua	
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+Que	CONsub	QUE	1	0	Que	que	Que	PROrel	Que	CONsub	SCONJ	que	Que	CONsub	que	Que	CONsub	que	Que	que	ADV	ADVint	PronType=Int
+ce	PROdem	CE1	1	0	ce	ce	ce	PROdem	ce	PROdem	PRON	ce	ce	PROdem	ce	ce	PROdem	ce	ce	ce	PRON	PROdem	PronType=Dem
+est	VERcjg	ÊTRE1	1	0	est	être	est	VERcjg	est	VERcjg	VERB	être	est	VERcjg	être	est	VERcjg	être	est	être	VERB	VERcjg	VerbForm=Fin
+la	DETdef	LE	1	0	la	le	la	DETdef	la	DETdef	DET	le	la	DETdef	le	la	DETdef	le	la	le	DET	DETdef	PronType=Art|Definite=Def
+dame	NOMcom	DAME1	1	0	dame	dame	dame	NOMcom	dame	NOMcom	NOUN	dame	dame	NOMcom	dame	dame	NOMcom	dame	dame	dame	NOUN	NOMcom	
+qui	PROrel	QUI1	1	0	qui	qui	qui	PROrel	qui	PROrel	PRON	qui	qui	PROrel	qui	qui	PROrel	qui	qui	qui	PRON	PROrel	PronType=Rel
+passe	VERcjg	PASSER1	1	0	passe	passe	passe	NOMcom	passe	VERcjg	VERB	passer	passe	VERcjg	<unknown>	passe	VERcjg	passe	passe	pas	ADJ	ADJqua	
+Totes	DETind	TOUT2	1	0	Totes	tout	Totes	ADVgen.PROper	Totes	DETind	DET	tout	Totes	DETind	tous	Totes	DETind	tous	Totes	Totes	ADV	ADVgen	
+celes	PROdem	CIL	1	0	celes	cil	celes	NOMcom	celes	PROdem	PRON	cil	celes	PROdem	cil	celes	PROdem	cil	celes	celle	NOUN	NOMcom	
+qui	PROrel	QUI1	1	0	qui	qui	qui	PROrel	qui	PROrel	PRON	qui	qui	PROrel	qui	qui	PROrel	qui	qui	qui	PRON	PROrel	PronType=Rel
+sont	VERcjg	ÊTRE1	1	0	sont	être	sont	VERcjg	sont	VERcjg	VERB	être	sont	VERcjg	être	sont	VERcjg	être	sont	être	VERB	VERcjg	VerbForm=Fin
+vivanz	VERppa	VIVRE1	1	0	vivanz	vivre	vivanz	NOMcom	vivanz	VERppa	VERB	vivre	vivanz	VERppa	vivre	vivanz	VERppa	vivre	vivanz	vivre	VERB	VERppa	VerbForm=Part|Tense=Pres
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+Si	ADVgen	SI4	1	0	Si	si	Si	ADVgen	Si	ADVgen	ADV	si	Si	ADVgen	si	Si	ADVgen	si	Si	si	ADV	ADVgen	
+con	CONsub	COMME	1	0	con	comme	con	CONsub	con	CONsub	SCONJ	comme	con	CONsub	comme	con	CONsub	comme	con	comme	ADV	ADVint	PronType=Int
+li	DETdef	LE	1	0	li	le	li	DETdef	li	DETdef	DET	le	li	DETdef	le	li	DETdef	le	li	le	DET	DETdef	PronType=Art|Definite=Def
+funs	NOMcom	FOND	1	0	funs	fun	funs	NOMcom	funs	NOMcom	NOUN	fun	funs	NOMcom	<unknown>	funs	NOMcom	funs	funs	fon	NOUN	NOMcom	
+passe	VERcjg	PASSER1	1	0	passe	passe	passe	NOMcom	passe	VERcjg	VERB	passer	passe	VERcjg	<unknown>	passe	VERcjg	passe	passe	pas	ADJ	ADJqua	
+les	DETdef	LE	1	0	les	le	les	DETdef	les	DETdef	DET	le	les	DETdef	le	les	DETdef	le	les	le	DET	DETdef	PronType=Art|Definite=Def
+vanz	NOMcom	VAN|VENT	1	1	vanz	vent	vanz	NOMcom	vanz	NOMcom	NOUN	vent	vanz	NOMcom	<unknown>	vanz	NOMcom	vanz	vanz	vant	ADJ	ADJqua	
+Qui	PROrel	QUI1	1	0	Qui	qui	Qui	PROrel	Qui	PROrel	PRON	qui	Qui	PROrel	qui	Qui	PROrel	qui	Qui	qui	PRON	PROrel	PronType=Rel
+vante	VERcjg	VANTER	1	0	vante	vante	vante	NOMcom	vante	VERcjg	VERB	venter	vante	VERcjg	vanter	vante	VERcjg	vanter	vante	vante	DET	DETcar	NumType=Card
+en	PRE	EN1	1	0	en	en	en	PROadv	en	PRE	ADP	en	en	PRE	en	en	PRE	en	en	en	ADP	PRE	
+mai	NOMcom	MAI	1	0	mai	mai	mai	ADJpos	mai	NOMcom	NOUN	mai	mai	NOMcom	mai	mai	NOMcom	mai	mai	mai	NOUN	NOMcom	
+ou	CONcoo	OU1	1	0	ou	ou	ou	PROrel	ou	CONcoo	CCONJ	ou	ou	CONcoo	ou	ou	CONcoo	ou	ou	où	ADV	ADVint	PronType=Int
+en	PRE	EN1	1	0	en	en	en	PROadv	en	PRE	ADP	en	en	PRE	en	en	PRE	en	en	en	ADP	PRE	
+avril	NOMcom	AVRIL	1	0	avril	avri	avril	NOMcom	avril	NOMcom	NOUN	avril	avril	NOMcom	avril	avril	NOMcom	avril	avril	avril	ADJ	ADJqua	
+.	PONfrt	.	1	0	.	.	.	PONfrt	.	PONfrt	PUNCT	.	.	PONfrt	.	.	PONfrt	.	.	.	PUNCT	PONfrt	
+Par	PRE	PAR1	1	0	Par	par	Par	PRE	Par	PRE	ADP	par	Par	PRE	par	Par	PRE	par	Par	par	ADP	PRE	
+foi	NOMcom	FOI1	1	0	foi	feiz	foi	NOMcom	foi	NOMcom	NOUN	foi	foi	NOMcom	foi	foi	NOMcom	foi	foi	foi	NOUN	NOMcom	
+,	PONfbl	,	1	0	,	,	,	PONfbl	,	PONfbl	PUNCT	,	,	PONfbl	,	,	PONfbl	,	,	,	PUNCT	PONfbl	
+je	PROper	JE	1	0	je	je	je	PROper	je	PROper	PRON	je	je	PROper	je	je	PROper	je	je	je	PRON	PROper	PronType=Pers
+ne	ADVneg	NE1	1	0	ne	ne	ne	ADVneg	ne	ADVneg	ADV	ne	ne	ADVneg	ne	ne	ADVneg	ne	ne	ne	CCONJ	CONcoo	
+sui	VERcjg	SUIVRE|ÊTRE1	1	1	sui	être	sui	VERcjg	sui	VERcjg	VERB	être	sui	VERcjg	être	sui	VERcjg	être	sui	être	VERB	VERcjg	VerbForm=Fin
+mie	ADVneg	MIE3	1	0	mie	mie	mie	ADVneg	mie	ADVneg	ADV	mie	mie	ADVneg	mie	mie	ADVneg	mie	mie	mie	ADV	ADVneg	PronType=Neg
+cil	PROdem	CIL	1	0	cil	cil	cil	PROdem	cil	PROdem	PRON	cil	cil	PROdem	cil	cil	PROdem	cil	cil	cil	PRON	PROdem	PronType=Dem
+Qui	PROrel	QUI1	1	0	Qui	qui	Qui	PROrel	Qui	PROrel	PRON	qui	Qui	PROrel	qui	Qui	PROrel	qui	Qui	qui	PRON	PROrel	PronType=Rel
+vuelle	VERcjg	VOULOIR	1	0	vuelle	voule	vuelle	NOMcom	vuelle	VERcjg	VERB	vouloir	vuelle	VERcjg	<unknown>	vuelle	VERcjg	vuelle	vuelle	vueux	ADJ	ADJqua	
+losangier	VERinf	LOSENGER	1	0	losangier	losegner	losangier	VERinf	losangier	VERinf	VERB	losenger	losangier	VERinf	<unknown>	losangier	VERinf	losangier	losangier	losanger	VERB	VERinf	VerbForm=Inf
+sa	DETpos	SON4	1	0	sa	son	sa	DETpos	sa	DETpos	DET	son	sa	DETpos	son	sa	DETpos	son	sa	son	DET	DETpos	Poss=Yes
+dame	NOMcom	DAME1	1	0	dame	dame	dame	NOMcom	dame	NOMcom	NOUN	dame	dame	NOMcom	dame	dame	NOMcom	dame	dame	dame	NOUN	NOMcom	
+;	PONfbl	;	1	0	;	;	;	PONfbl	;	PONfbl	PUNCT	;	;	PONfbl	;	;	PONfbl	;	;	;	PUNCT	PONfbl	
